@@ -1,0 +1,307 @@
+body{
+  margin:auto;
+  background-color: pink;
+}
+
+header{
+  height:70px;
+  text-align: center;
+  background-color: #3b2632;
+}
+#brand{
+  color:#fff;
+  font-size:30px;
+  float:center;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.logo {
+  text-align: center;
+  font-size: 45px;
+  color: red;
+  background: white;
+  width: 105px;
+  height: 113px;
+  border-radius: 50%;
+  position: absolute;
+  top: 28%;
+  margin-left: 43%;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.FM{
+  position: relative;
+  top:20%;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  position: relative;
+  margin: auto;
+  font-size: 36px;
+  top: -240px;
+}
+
+.dropdown {
+  position: relative;
+  top: -238px;
+  margin-left: 27.5%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.location {
+  height: 40px;
+  width: 245px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  margin-right: 21px;
+  margin-bottom: 25px;
+  float: left;
+}
+
+.restaurantsinput {
+  height: 40px;
+  width: 310px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  float: left;
+  padding-left: 30px;
+}
+
+.search {
+  position: absolute !important;
+  left: 275px;
+  margin: 2% 0px;
+}
+
+.quicksearch {
+  position: absolute ;
+ margin: auto;
+  background: pink;
+}
+
+.quicksearchHeading {
+  text-align: left;
+  color: #192f60;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 35px;
+}
+
+.quicksearchSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 35px;
+}
+
+.tileContainer {
+  height: 150px;
+  width: 350px;
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  box-shadow: 0 3px 6px gray;
+  float: left;
+  animation: dance 10s infinite;
+}
+
+@keyframes dance{
+  0% {transform:rotate(-5deg)}
+  25% {transform:rotate(0deg)}
+  50% {transform:rotate(5deg)}
+  65% {transform:scale(1.1)}
+  75% {transform:rotate(0deg)}
+  100% {transform:rotate(-5deg)}
+}
+
+.tileComponent1 {
+  width: 45%;
+  float: left;
+}
+
+.tileComponent2 {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.componentHeading {
+  text-align: left;
+  color: #192f60;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+
+.componentSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 15px;
+}
+
+.qs-block {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.marg-bot {
+  margin-bottom: 10px;
+}
+
+.heading {
+  width: 443px;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+}
+
+.footer {
+ height: 100px;
+ background-color: #3b2632;
+ text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: skyblue;
+  }
+  .restaurantsinput {
+    height: 40px;
+    width: 245px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    float: left;
+  }
+  .logo {
+    text-align: center;
+    font-size: 33px;
+    color: red;
+    background: white;
+    width: 80px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 28%;
+    margin-left: 40%;
+    font-family: Poppins;
+    font-weight: bold;
+  }
+  .locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 23.5%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  .search {
+    position: absolute !important;
+    left: 5px;
+    margin: 2% 0px;
+    top: 73px !important;
+  }
+  
+  .quicksearch {
+    background-color: skyblue;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1150px) {
+  body{
+    background-color: lightcyan;
+  }
+  .locationDropdown {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+  }
+  .locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 32.5%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  .search {
+    position: absolute !important;
+    left: 5px;
+    margin: 1% 0px;
+    top: 73px !important;
+  }
+  .quicksearch {
+    background-color: lightcyan;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  body{
+    background-color:lightgreen;
+  }
+  .locationDropdown {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+  }
+  .locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 32.5%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  .search {
+    position: absolute !important;
+    left: 5px;
+    margin: 1% 0px;
+    top: 73px !important;
+  }
+  .quicksearch {
+    background-color:lightgreen;
+  }
+}
+
+
+
+
+
+
